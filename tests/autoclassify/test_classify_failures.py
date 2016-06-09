@@ -9,7 +9,6 @@ from treeherder.autoclassify.matchers import (CrashSignatureMatcher,
                                               ElasticSearchTestMatcher,
                                               PreciseTestMatcher,
                                               time_window)
-
 from treeherder.model.models import (ClassifiedFailure,
                                      FailureMatch)
 

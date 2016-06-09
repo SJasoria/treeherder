@@ -11,8 +11,6 @@ from django.db.models import Q
 from elasticsearch_dsl.query import Match as ESMatch
 
 from treeherder.autoclassify.management.commands.autoclassify import AUTOCLASSIFY_GOOD_ENOUGH_RATIO
-from treeherder.model.models import (
-
 from treeherder.model.models import (ClassifiedFailure,
                                      FailureLine,
                                      FailureMatch,
